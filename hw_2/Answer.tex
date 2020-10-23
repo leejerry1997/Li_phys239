@@ -1,0 +1,50 @@
+\documentclass[14pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{dsfont}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{multirow}
+\setlength{\parindent}{2cm}
+\setlength{\parskip}{0.25em}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{pdfpages}
+
+\renewcommand{\d}{\text{d}}
+\newcommand{\D}{\text{D}}
+
+\newcommand{\dbar}{\d\hspace*{-0.2em}\bar{}\hspace*{0.3em}}
+\newcommand{\deltabar}{\boldsymbol{\delta\hspace*{-0.2em}\bar{}\hspace*{0.3em}}}
+
+\title{\Large{PHYS 239   HW 2}}
+\author{Hongrui Li}
+\date{October 2020}
+
+\begin{document}
+
+\maketitle
+\begin{enumerate}
+    \item Since the cloud has depth $D=100 \text{pc}=3.0856775814914\times 10^{18} \text{cm}$, then the column density reads $N=nD=3.0856775814914\times 10^{18} \text{cm}^{-2}$. Since the optical depth can be written in
+    $$\tau_\nu=N\sigma_\nu$$
+    With $\tau_\nu$ specified, we can rewrite the equation: $\sigma_\nu=\frac{\tau_\nu}{N}$ so
+    \begin{enumerate}
+        \item $\tau_\nu=10^{-3}\implies \sigma_\nu=\frac{\tau_\nu}{N}=3.24\times 10^{-22}\text{cm}^2$
+        
+        \item $\tau_\nu=1\implies \sigma_\nu=\frac{\tau_\nu}{N}=3.24\times 10^{-19}\text{cm}^2$
+        
+        \item $\tau_\nu=10^{3}\implies \sigma_\nu=\frac{\tau_\nu}{N}=3.24\times 10^{-16}\text{cm}^2$
+    \end{enumerate}
+
+    \item Everything else: in program 
+    
+    For convenience, I set $S=1$ and write everything in terms of optical depth (or set $N=1$)
+\end{enumerate}
+
+\end{document}
